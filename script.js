@@ -18,8 +18,6 @@ toDoList.addEventListener("click", (e) => {
               <p>${input.value}</p>
               <div class="icon"><i class="fa-regular fa-square-check check"></i></div>
             </div>`;
-
-      input.value = "";
     }
   }
   if (e.target.classList.contains("check")) {
